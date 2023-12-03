@@ -1,0 +1,15 @@
+body
+{
+	background: #FEFEE2;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+a:hover
+{
+	color: #9F2B68;
+}
+ul
+{
+	list-style-type: square;
+	color: #9F2B68;
+}

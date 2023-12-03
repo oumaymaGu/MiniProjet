@@ -3,8 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Formulaire</title>
+	<link rel="stylesheet" type="text/css" href="formulaire.css">
 </head>
 <body>
+	<form action="envoie.html" method="post">
+		
+	</form>
 	<header>
       <nav>
         <ul>
@@ -26,13 +30,13 @@
 	<fieldset>
 		<legend style="font-size: 30px">Application pour un Entretien</legend>
 		<label for="name">Entreprise :</label><br>
-		<input type="text" id="name" name="name"><br><br>
+		<input type="text" id="name" name="name" required><br><br>
 		<label for="ad">Adresse:</label><br>
 		<textarea name="ad" rows="5" cols="10"></textarea><br><br>
 		<label for="pd">Post demandé :</label><br>
 		<input type="text" id="pd" name="pd"><br><br>
 		<label for="message">Compétences :</label><br>
-		<textarea name="message" rows="5" cols="10"></textarea><br><br>
+		<textarea name="message" rows="5" cols="10" required></textarea><br><br>
 		<label for="lg">Langues demandées :</label><br><br>
 		<input type="checkbox" name="lg" value="Arabe">
 		Arabe<br>
@@ -47,7 +51,8 @@
 		<input type="submit" value="Envoyer">
 		
 	</fieldset>
-	<p style="font-size: 30px;">Contactez moi :</p>
+	<p style="font-size: 30px;
+						color: #9F2B68;">Contactez moi :</p>
 	<a href="url">Souhaguesmi29@gmail.com</a><br>
 	<a href="tel:+12345678">+216 24511876</a>
 

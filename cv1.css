@@ -1,0 +1,28 @@
+body
+{
+	background: #FEFEE2;
+	margin-right: 50px;
+	margin-left: 50px;
+
+}
+p
+{
+	
+	border-color: #9F2B68;
+	border: 5px solid #9F2B68;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+a:hover 
+{
+	color: #9F2B68;
+
+}
+ul
+{
+	list-style-type: square;
+	color: #9F2B68;
+	
+}
