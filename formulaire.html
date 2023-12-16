@@ -30,7 +30,7 @@
 	<fieldset>
 		<legend style="font-size: 30px">Application pour un Entretien</legend>
 		<label for="name">Entreprise :</label><br>
-		<input type="text" id="name" name="name" required><br><br>
+		<input type="text" id="name" name="name" onkeyup="nameValidation()"><br><br>
 		<label for="ad">Adresse:</label><br>
 		<textarea name="ad" rows="5" cols="10"></textarea><br><br>
 		<label for="pd">Post demandé :</label><br>
@@ -48,7 +48,10 @@
 		<input type="Date" id="de" name="de"><br><br>
 		<label for="he">Heure d'entretien :</label><br>
 		<input type="time" id="he" name="he"><br><br>
-		<input type="submit" value="Envoyer">
+		
+		
+		<button type="button" onclick='document.getElementById("demo").innerHTML="envoyé avec succés" ' >Envoyer</button>
+		<p id="demo"> . </p>
 		
 	</fieldset>
 	<p style="font-size: 30px;
@@ -56,5 +59,6 @@
 	<a href="url">Souhaguesmi29@gmail.com</a><br>
 	<a href="tel:+12345678">+216 24511876</a>
 
+<script src="test.js"></script>
 </body>
 </html>
